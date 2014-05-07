@@ -1,4 +1,8 @@
 
+h1{
+	font-family: 'Great Vibes', cursive;
+	font-size: 3em;
+}
 .navbar{
 	margin-bottom: 0;
 	border: 0;
@@ -67,7 +71,7 @@ a{
 	margin: 0 auto;
 }
 .middle {
-    background-color: #F2F6DD;
+    background-color: #FFDE95;
     margin-top: -25px;
     padding-bottom: 40px;
     padding-top: 60px;
@@ -87,11 +91,21 @@ a{
 	color: #FF530D;
 	text-shadow: 2px 2px #727272;
 }
+.coverflip img{
+
+}
+.portsec{
+	background-color: #FFDE95;
+	width: 90%;
+}
+.portgrid{
+	margin-top: 20px;
+}
 div .coverflip {
-	max-height: 220px;
+	max-height: 335px;
 	overflow: hidden;
 	position: relative;
-	background-color: #161616;
+	background-color: #FF892C;
 	-webkit-transition: max-height 0.75s ease 0s;
 	-moz-transition: max-height 0.75s ease 0s;
 	-ms-transition: max-height 0.75s ease 0s;
@@ -101,9 +115,12 @@ div .coverflip {
 div .coverflip:hover {
 	max-height: 999px;
 }
+#pics{
+	margin: 0 auto;
+}
 .flipinfo{
 	padding: 10px;
-	color: #fff;
+	color: #000;
 }
 footer{
 	width: 100%;
@@ -113,11 +130,24 @@ footer{
 	text-align: center;
 	padding-top: 20px;
 }
+.btn-primary{
+	margin-top: 10px;
+	background-color: #FF530D;
+	border: none;
+}
+.btn-primary:hover, a:hover, a:focus{
+	border: none;
+	background-color: #FFA34E;
+	text-decoration: none;
+	color: #fff;
+}
+
 @media screen and (max-width: 480px){
 
 	div .coverflip{
-		max-height: 450px;
+		max-height: 600px;
 		overflow: visible;
+		margin-bottom: 10px;
 		-webkit-transition: max-height 0s ease 0s;
 		-moz-transition: max-height 0s ease 0s;
 		-ms-transition: max-height 0s ease 0s;
