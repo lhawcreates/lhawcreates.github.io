@@ -177,6 +177,19 @@ input{
 	width: 50%;
 	height: 30%;
 }
+.address li{
+	list-style: none;
+	line-height: 2.5em;
+	font-size: 1.2em;
+	color: #7A7D80;
+}
+.services li{
+	color: #7A7D80;
+	line-height: 2.5em;
+}
+h1 .contact{
+	float: right;
+}
 
 
 @media screen and (max-width: 480px){
